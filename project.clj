@@ -9,6 +9,7 @@
 
   :dependencies [[org.clojure/clojure "1.12.4"]
                  [org.clojure/tools.logging "1.3.1"]
+                 [prismatic/schema "1.4.1"]
                  [integrant "1.0.1"]
                  [datalevin "0.10.2"]]
 
