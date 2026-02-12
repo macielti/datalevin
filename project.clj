@@ -1,4 +1,4 @@
-(defproject net.clojars.macielti/datalevin-component "0.1.0"
+(defproject net.clojars.macielti/datalevin-component "2.0.0"
 
   :description "Datalevin Component is an Integrant component to deal with Datalevin databases"
 
@@ -11,7 +11,7 @@
                  [org.clojure/tools.logging "1.3.1"]
                  [prismatic/schema "1.4.1"]
                  [integrant "1.0.1"]
-                 [org.clojars.huahaiy/datalevin-native "0.9.14"]]
+                 [datalevin "0.10.5"]]
 
   :profiles {:dev {:resource-paths ^:replace ["test/resources"]
 
