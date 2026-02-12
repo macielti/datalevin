@@ -11,7 +11,7 @@
                  [org.clojure/tools.logging "1.3.1"]
                  [prismatic/schema "1.4.1"]
                  [integrant "1.0.1"]
-                 [datalevin "0.10.2"]]
+                 [org.clojars.huahaiy/datalevin-native "0.9.14"]]
 
   :profiles {:dev {:resource-paths ^:replace ["test/resources"]
 
