@@ -13,9 +13,11 @@
                  [integrant "1.0.1"]
                  [datalevin "0.10.5"]]
 
-  :profiles {:dev {:resource-paths ^:replace ["test/resources"]
+  :resource-paths ["resources"]
 
-                   :test-paths     ^:replace ["test/unit" "test/integration" "test/helpers"]
+  :profiles {:dev {:resource-paths ["test/resources"]
+
+                   :test-paths     ["test/unit" "test/integration" "test/helpers"]
 
                    :plugins        [[com.github.clojure-lsp/lein-clojure-lsp "2.0.13"]
                                     [com.github.liquidz/antq "RELEASE"]]
@@ -32,6 +34,4 @@
                                     "format-fix"   ["clojure-lsp" "format"]
                                     "lint-fix"     ["do" ["clean-ns-fix"] ["format-fix"]]}
 
-                   :repl-options   {:init-ns datalevin.core}}}
-
-  :resource-paths ["resources"])
+                   :repl-options   {:init-ns datalevin.core}}})
