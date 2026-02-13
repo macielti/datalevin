@@ -1,6 +1,6 @@
-(defproject net.clojars.macielti/datalevin-component "2.0.0"
+(defproject net.clojars.macielti/datalevin-component "3.0.0"
 
-  :description "Datalevin Component is an Integrant component to deal with Datalevin databases"
+  :description "DEPRECATED - Datalevin Component is an Integrant component to deal with Datalevin databases - Use net.clojars.macielti/datalevin instead"
 
   :url "https://github.com/macielti/datalevin-component"
 
