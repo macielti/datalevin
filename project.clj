@@ -1,8 +1,8 @@
-(defproject net.clojars.macielti/datalevin-component "3.0.0"
+(defproject net.clojars.macielti/datalevin "4.0.0"
 
-  :description "DEPRECATED - Datalevin Component is an Integrant component to deal with Datalevin databases - Use net.clojars.macielti/datalevin instead"
+  :description "Datalevin is an Integrant component to deal with Datalevin databases."
 
-  :url "https://github.com/macielti/datalevin-component"
+  :url "https://github.com/macielti/datalevin"
 
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url  "https://www.eclipse.org/legal/epl-2.0/"}
@@ -32,6 +32,6 @@
                                     "format-fix"   ["clojure-lsp" "format"]
                                     "lint-fix"     ["do" ["clean-ns-fix"] ["format-fix"]]}
 
-                   :repl-options   {:init-ns datalevin-component.core}}}
+                   :repl-options   {:init-ns datalevin.core}}}
 
   :resource-paths ["resources"])

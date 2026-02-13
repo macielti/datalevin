@@ -1,7 +1,7 @@
-(ns datalevin-component.mock-test
+(ns datalevin.mock-test
   (:require [clojure.test :refer :all]
-            [datalevin-component.mock :as database.mock]
             [datalevin.core :as d]
+            [datalevin.mock :as database.mock]
             [schema.test :as s]))
 
 (s/deftest database-connection-for-unit-tests-test

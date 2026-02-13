@@ -1,4 +1,4 @@
-(ns datalevin-component.core
+(ns datalevin.component
   (:require [clojure.tools.logging :as log]
             [datalevin.core :as d]
             [integrant.core :as ig]))

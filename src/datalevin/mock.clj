@@ -1,4 +1,4 @@
-(ns datalevin-component.mock
+(ns datalevin.mock
   (:require [datalevin.core :as d]))
 
 (defn database-connection-for-unit-tests!

@@ -1,6 +1,6 @@
-# Datalevin Component
+# Datalevin
 
-Datalevin Component is an Integrant component to deal with Datalevin databases.
+Datalevin is an Integrant component to deal with Datalevin databases.
 
 ## License
 

@@ -3,8 +3,9 @@
 All notable changes to this project will be documented in this file. This change log follows the conventions
 of [keepachangelog.com](https://keepachangelog.com/).
 
-## 0.1.0 - 2026-01-26
+## 4.0.0 - 2026-02-13
 
-### Added
+### Changed
 
-- Inicial implementation.
+- Reset version counting to a fresh start.
+- Renamed project to `net.clojars.macielti/datalevin`. 
